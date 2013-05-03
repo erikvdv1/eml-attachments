@@ -7,7 +7,7 @@
     <ProjectGuid>{EDC00DF4-80AC-422C-BFB3-AC7717ECE10D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EmlAttachments</RootNamespace>
+    <RootNamespace>Infiks.Email</RootNamespace>
     <AssemblyName>extracteml</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

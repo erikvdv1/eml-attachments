@@ -1,9 +1,33 @@
-﻿using System;
+﻿#region License
+// <copyright file="Email.cs" company="Infiks">
+// 
+// EML Extract, extract attachments from .eml files.
+// Copyright (c) 2013 Infiks
+// 
+// This file is part of EML Extract.
+// 
+// EML Extract is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+// 
+// EML Extract is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with EML Extract.  If not, see <http://www.gnu.org/licenses/>.
+// </copyright>
+// <author>Erik van der Veen</author>
+// <date>2013-05-03 13:49</date>
+#endregion
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace EmlAttachments
+namespace Infiks.Email
 {
     /// <summary>
     /// A class for representing an email (eml file).
